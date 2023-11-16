@@ -1,6 +1,6 @@
 import React from "react";
 import Index from './containers';
-import { BrowserRouter,Routes, Route} from 'react-router-dom';
+import { BrowserRouter as Router,Routes, Route} from 'react-router-dom';
 import './index.css';
 
 export default function App() {
