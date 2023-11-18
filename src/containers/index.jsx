@@ -6,7 +6,7 @@ import Chats from "../components/Chats";
 import {io} from 'socket.io-client';
 import { useEffect, useRef, useState } from "react";
 
-let socket=io.connect(import.meta.env.VITE_SOCKET_HOST, { secure: true });
+let socket=io.connect('https://talentchat-socket-api.vercel.app', { secure: true });
 
 export default function Index(){
     const [verified,setVerified] = useState(false);
