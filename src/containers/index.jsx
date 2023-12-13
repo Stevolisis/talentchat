@@ -44,7 +44,7 @@ export default function Index(){
         });
 
         return ()=> socket.off('message');
-    });
+    },[]);
 
     
     return(
